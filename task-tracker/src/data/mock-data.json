@@ -1,0 +1,65 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "role": "Senior",
+      "tasks": [
+        {
+          "taskId": 101,
+          "title": "Project Planning",
+          "status": "In Progress",
+          "assignedTo": 2
+        },
+        {
+          "taskId": 102,
+          "title": "Code Review",
+          "status": "Completed",
+          "assignedTo": 3
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "role": "Junior",
+      "tasks": [
+        {
+          "taskId": 103,
+          "title": "Feature Development",
+          "status": "Pending",
+          "assignedTo": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Charlie Brown",
+      "role": "Junior",
+      "tasks": []
+    }
+  ],
+  "tasks": [
+    {
+      "taskId": 101,
+      "title": "Project Planning",
+      "description": "Plan the project timeline and deliverables.",
+      "assignedTo": 1,
+      "status": "In Progress"
+    },
+    {
+      "taskId": 102,
+      "title": "Code Review",
+      "description": "Review the code submitted by the team.",
+      "assignedTo": 1,
+      "status": "Completed"
+    },
+    {
+      "taskId": 103,
+      "title": "Feature Development",
+      "description": "Develop the new feature as per the specifications.",
+      "assignedTo": 2,
+      "status": "Pending"
+    }
+  ]
+}

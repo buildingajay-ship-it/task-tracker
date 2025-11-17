@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Task Tracker Dashboard</h1>
+        <nav>
+            <ul>
+                <li><a href="login.html">Logout</a></li>
+                <li><a href="org-chart.html">Organizational Chart</a></li>
+                <li><a href="task-panel.html">Task Panel</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="assigned-tasks">
+            <h2>Your Assigned Tasks</h2>
+            <ul id="task-list">
+                <!-- Task items will be dynamically populated here -->
+            </ul>
+        </section>
+        <section id="org-chart">
+            <h2>Organizational Chart</h2>
+            <div id="chart-container">
+                <!-- Organizational chart will be rendered here -->
+            </div>
+        </section>
+    </main>
+    <script src="../js/app.js"></script>
+    <script src="../js/tasks.js"></script>
+    <script src="../js/orgChart.js"></script>
+</body>
+</html>

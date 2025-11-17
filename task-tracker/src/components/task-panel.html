@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Task Panel</title>
+</head>
+<body>
+    <div class="task-panel">
+        <h2>Task Management</h2>
+        <div id="task-list">
+            <!-- Task items will be dynamically populated here -->
+        </div>
+        <div class="task-assignment">
+            <h3>Assign New Task</h3>
+            <form id="task-form">
+                <label for="task-title">Task Title:</label>
+                <input type="text" id="task-title" required>
+                
+                <label for="assignee">Assign To:</label>
+                <select id="assignee" required>
+                    <!-- Options will be populated with team members -->
+                </select>
+                
+                <label for="task-deadline">Deadline:</label>
+                <input type="date" id="task-deadline" required>
+                
+                <button type="submit">Assign Task</button>
+            </form>
+        </div>
+    </div>
+    <script src="../js/tasks.js"></script>
+    <script src="../js/utils.js"></script>
+</body>
+</html>
